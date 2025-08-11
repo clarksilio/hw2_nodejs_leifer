@@ -1,0 +1,15 @@
+node_modules
+.expo
+.expo-shared
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+.DS_Store
+*.log
+coverage
+/dist
+/build
+*.orig
+.idea
+.vscode
+package-lock.json
