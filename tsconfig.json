@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM"],
+    "jsx": "react-jsx",
+    "allowJs": false,
+    "skipLibCheck": true,
+    "types": ["jest", "react", "react-native"],
+    "noEmit": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@models/*": ["src/models/*"],
+      "@repositories/*": ["src/repositories/*"],
+      "@services/*": ["src/services/*"],
+      "@store/*": ["src/store/*"],
+      "@screens/*": ["src/screens/*"],
+      "@components/*": ["src/components/*"],
+      "@theme/*": ["src/theme/*"],
+      "@navigation/*": ["src/navigation/*"]
+    }
+  },
+  "include": ["src", "App.tsx", "jest.setup.js", "__tests__"]
+}

@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "LifeFlow",
+    "slug": "lifeflow",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "lifeflow",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.lifeflow",
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "We use notifications to remind you about tasks.",
+        "UIBackgroundModes": ["remote-notification", "fetch"]
+      }
+    },
+    "android": {},
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      ["expo-notifications"],
+      ["expo-sqlite"]
+    ]
+  }
+}
